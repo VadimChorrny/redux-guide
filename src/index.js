@@ -29,3 +29,9 @@ root.render(
     <App />
   </Provider>,
 );
+
+// FIST LESSON
+
+// fist step: need create store (const store = createStore(reducer);)
+// second step: need wrap all components in "Provider"
+// third step: create reducer

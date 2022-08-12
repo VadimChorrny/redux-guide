@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 
 function App() {
-  const dispatch = useDispatch(); // change state
+  const dispatch = useDispatch(); // change state // Analog: const data = useContext(Context);
   const currCash = useSelector((state) => state.cash); // get current state
 
   return (
